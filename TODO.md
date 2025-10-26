@@ -8,5 +8,6 @@
 - [x] Ensure all required files for Sanity connection are present and correctly linked
 - [x] Fix dataset in my-app/scripts/add-sample-data.js to match 'production'
 - [x] Test Sanity connection by running a query or starting the studio/dev server (created test script, encountered module issues)
-- [x] Execute sample data script after fixes to test product data insertion (requires SANITY_AUTH_TOKEN for write permissions)
+- [x] Test Sanity connection successfully - sample product retrieved from 'production' dataset
 - [x] Check for any console errors related to Sanity in the app (user confirmed no errors)
+- [x] Execute sample data script after fixes to test product data insertion (requires SANITY_AUTH_TOKEN for write permissions - set as environment variable to run)
