@@ -1,13 +1,9 @@
-# TODO: Check Sanity Connection for Products
+# TODO: Undo Image Handling Changes in Next.js App
 
-## Steps to Complete
+## Tasks
+- [x] Remove null checks in `my-app/app/product/[slug]/page.tsx`
+- [x] Delete placeholder images from `my-app/public/`
+- [x] Update TODO.md to reflect undone changes
 
-- [x] Verify schema definitions for products and categories are complete and valid
-- [x] Check client configurations for consistency and correct dataset usage
-- [x] Identify and fix dataset mismatches (e.g., in add-sample-data.js)
-- [x] Ensure all required files for Sanity connection are present and correctly linked
-- [x] Fix dataset in my-app/scripts/add-sample-data.js to match 'production'
-- [x] Test Sanity connection by running a query or starting the studio/dev server (created test script, encountered module issues)
-- [x] Test Sanity connection successfully - sample product retrieved from 'production' dataset
-- [x] Check for any console errors related to Sanity in the app (user confirmed no errors)
-- [x] Execute sample data script after fixes to test product data insertion (requires SANITY_AUTH_TOKEN for write permissions - set as environment variable to run)
+## Followup Steps
+- Run the app and check for image-related errors (should fail without fallbacks)
